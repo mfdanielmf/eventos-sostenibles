@@ -24,7 +24,7 @@ eventos-sostenibles/
   ├── doc/ → Documentación del proyecto
   ├── html/ → Frontend
   ├── java/ → Lógica del backend
-  ├── sql/ → Scripts para la base de datos y su modelo entidad relación. Modelo entidad relación disponible en drawio
+  ├── sql/ → Script para la creación de la base de datos. Modelo entidad relación también disponible en drawio
   ├── grafo_ramas_git.jpg → Imagen del grafo de ramas en Git
   └── portal_eventos_sostenibles.jpg → Captura del portal
 ```
