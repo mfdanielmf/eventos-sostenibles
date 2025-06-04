@@ -4,20 +4,20 @@
 
 Proyecto realizado en 1ºDAW.
 
-## 🌱 Objetivos del Proyecto
+## 🌱 Objetivos del proyecto
 
 - Facilitar la organización y gestión de eventos sostenibles.
-- Promover prácticas responsables en la planificación y ejecución de eventos.
-- Proporcionar herramientas tecnológicas que apoyen la sostenibilidad en el sector de eventos.
+- Promover prácticas responsables con el medio ambiente mediante, concienciando a la gente por medio de actividades y charlas ecológicas.
+- Proporcionar conocimientos que apoyen la sostenibilidad en diversos sectores.
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías usadas
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Java
 - **Base de Datos:** SQL
 - **Servidor:** XAMPP
 
-## 📁 Estructura del Proyecto
+## 📁 Estructura del proyecto
 
 eventos-sostenibles/
 ├── doc/ # Documentación del proyecto
