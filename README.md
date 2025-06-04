@@ -19,15 +19,14 @@ Proyecto realizado en 1ºDAW.
 
 ## 📁 Estructura del proyecto
 
-```
-eventos-sostenibles/
-├── doc/ # Documentación del proyecto
-├── html/ # Frontend
-├── java/ # Lógica del backend
-├── sql/ # Scripts para la base de datos y su modelo relacional. Modelo entidad relación disponible en drawio
-├── grafo_ramas_git.jpg # Imagen del grafo de ramas en Git
-└──  portal_eventos_sostenibles.jpg # Captura del portal
-```
+- eventos-sostenibles/
+- ├── doc/ # Documentación del proyecto
+- ├── html/ # Frontend
+- ├── java/ # Lógica del backend
+- ├── sql/ # Scripts para la base de datos y su modelo relacional. Modelo entidad relación disponible en drawio
+- ├── grafo_ramas_git.jpg # Imagen del grafo de ramas en Git
+- └──  portal_eventos_sostenibles.jpg # Captura del portal
+
 
 ## Preview frontend
 ![Preview portal](portal_eventos_sostenibles.jpg)
