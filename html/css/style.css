@@ -1,0 +1,207 @@
+/* PRINCIPAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: linear-gradient(90deg, #2e7d32, #66bb6a);
+    color: white;
+    padding: 24px 16px 16px 16px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 0;
+    margin-top: 12px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 6px 18px;
+    border-radius: 20px;
+    transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover{
+    background: white;
+    color: #2e7d32;
+    box-shadow: 0 2px 8px rgba(30, 136, 229, 0.08);
+}
+
+main {
+    padding: 40px 16px 32px 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex: 1 0 auto;
+}
+
+.presentacion-container {
+    background: white;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 32px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+}
+
+.presentacion-container h2 {
+    color: #2e7d32;
+    margin-bottom: 12px;
+    font-size: 2rem;
+}
+
+.presentacion-container p {
+    color: #444;
+    font-size: 1.1rem;
+}
+
+/* CARRUSEL*/
+.carrusel h2{
+    margin-bottom: 12px;
+}
+
+.carrusel-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+    background: white;
+    position: relative;
+}
+
+.carrusel-movimiento {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.evento {
+    background: white;
+    border-radius: 10px;
+    padding: 28px 18px 20px 18px;
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.06);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.evento:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(44, 62, 80, 0.13);
+}
+
+.evento img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 8px rgba(30, 136, 229, 0.07);
+}
+
+.evento h3 {
+    color: #1976d2;
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+}
+
+.evento p {
+    color: #555;
+    font-size: 1rem;
+}
+
+.carrusel-movimiento .evento{
+    cursor: pointer;
+}
+
+
+/* EVENTOS */
+
+.tabla-eventos {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+
+.tabla-eventos th, .tabla-eventos td {
+    padding: 12px 10px;
+    text-align: left;
+}
+
+.tabla-eventos thead {
+    background: #2e7d32;
+    color: white;
+}
+
+.tabla-eventos tbody tr:hover {
+    background: #e0f2f1;
+    cursor: pointer;
+}
+
+/* Título de la tabla */
+.titulo-eventos {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #1976d2;
+    font-size: 1.7rem;
+}
+
+
+/* DETTALES EVENTOS */
+.img-detalle-evento {
+    max-width: 350px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* FOOTER (es el mismo para todas las páginas) */
+footer {
+    background: linear-gradient(90deg, #2e7d32, #66bb6a);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 18px;
+    margin-top: 32px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 8px rgba(30, 136, 229, 0.07);
+}
+
+
