@@ -28,4 +28,4 @@ eventos-sostenibles/
 └──  portal_eventos_sostenibles.jpg # Captura del portal
 
 ## Preview frontend
-(portal_eventos_disponibles.jpg)
+![Preview portal](portal_eventos_sostenibles.jpg)
